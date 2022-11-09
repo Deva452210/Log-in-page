@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+ }
+body{
+    background-color: black;
+}
+span{
+    color: darkred;
+}
+.nav{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px  25px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+    margin-top: -30px;
+    transition: 0.4s ease-out;
+}
+.nav ul li a:hover{
+    color: darkred;
+}
+.content{
+    position: absolute;
+	top: 40%;
+	left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 75px;
+}
+h3{
+    color: grey;
+    letter-spacing: 10px;
+    font-size: 25px;
+}
+.email{
+    width: 300px;
+    height:25px;
+    border-radius: 10px;
+ margin-left: 5rem;
+ background: transparent;
+ border: 1px solid white;
+}
+.Go{
+    background-color: darkred;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: -76px;
+    border: none;
+}
+.Go:hover{
+    cursor: pointer;
+}
+.info form{
+    margin-top: 226px;
+    margin-left: 51px;
+}
+.login{
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 53rem;
+    margin-top: -195px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid darkred;
+}
+.username{
+  margin-bottom: -10rem;
+color: white;
+font-weight: bold;
+font-size: 25px;
+  padding: 10px 10px 10px 10px;
+}
+.input{
+    color: white;
+    width: 200px;
+    height: 23px;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid darkred;
+}
+.button{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 59px;
+    height: 22px;
+    margin: 22px 65px 9px 120px;
+    background-color: darkred;
+}
+.forget a{
+    color: darkred;
+  text-decoration: none;
+  margin: 11px 9px 10px 100px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.icons i{
+    color: darkred;
+}
+.icons{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+.icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2ms all;
+}
+.icons ul li i:hover{
+    color: white;
+}
